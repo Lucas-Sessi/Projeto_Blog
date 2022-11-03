@@ -4,8 +4,8 @@
 
 <p>-> O projeto consiste em um Blog de Notícias dinâmico sobre o mundo da Tecnologia, desenvolvido nas seguintes tecnologias:</p>
 
-<p>- HTML5</p>
-<p>- CSS3</p>
+- HTML5
+- CSS3
 <p>- JavaScript</p>
 <p>- NodeJS</p>
 <p>- ExpressJS e EJS</p>
