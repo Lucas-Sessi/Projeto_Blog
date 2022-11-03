@@ -6,7 +6,7 @@
 
 - HTML5
 - CSS3
-<p>- JavaScript</p>
-<p>- NodeJS</p>
-<p>- ExpressJS e EJS</p>
-<p>- MongoDB Atlas</p>
+- JavaScript
+- NodeJS
+- ExpressJS e EJS
+- MongoDB Atlas
