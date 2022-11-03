@@ -1,4 +1,4 @@
-# Projeto_Blog
+# Projeto Blog de Notícias
 
 <p>-> Este é um projeto pessoal, desenvolvido para fins educacionais, ou seja, colocar em prática os meus conhecimentos adquiridos no Curso de NodeJS da DankiCode.</p>
 
