@@ -4,18 +4,16 @@
 <section class="noticia">
     <div class="center">
         <div class="noticia-single">
-            <h2> <%= noticia.titulo %>? </h2>
+            <h2> <%= noticiaPrincipal.titulo %>? </h2>
             <div class="autor-nome">
-                <span><%= noticia.author %></span>
+                <span><%= noticiaPrincipal.author %></span>
             </div>
             <br/>
-            <div style="display: flex; justify-content: center"><img style="max-width: 100%;" src="<%= noticia.imagem %>" alt="programação"></div> 
+            <div style="display: flex; justify-content: center"><img style="max-width: 100%;" src="<%= noticiaPrincipal.imagem %>" alt="programação"></div> 
 
             <br/>
             
-                <%- noticia.conteudo %>
-                <h3>Quem é um desenvolvedor Full Stack?</h3>
-                <%- noticia.conteudo %>
+                <%- noticiaPrincipal.conteudo %>
 
 
             </div>
