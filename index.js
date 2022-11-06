@@ -176,7 +176,7 @@ app.post('/admin/cadastro', (req,res)=>{
   //INSERINDO NO BANCO DE DADOS
   Posts.create({
     titulo: req.body.titulo_noticia,
-    imagem: 'http://localhost:5000/public/images/'+imagem,
+    imagem: '/public/images/'+imagem,
     categoria: "Nenhum",
     conteudo: req.body.noticia,
     slug: req.body.slug,
