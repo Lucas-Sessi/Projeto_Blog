@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faça seu login</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
-    <style>
-        * {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -126,62 +115,3 @@ input[type=text]:focus, input[type=password]:focus {
     color: white;
     font-size: 17px;
 }
-
-@media screen and (max-width: 1400px) {
-    .text-header{
-    margin-top: 40px;
-}
-
-.text-header h1{
-    font-size: 30px;
-}
-
-.text-header p{
-    margin-top: 40px;
-    font-size: 23px;
-}
-
-form{
-    margin: 60px auto;
-}
-}
-    </style>
-</head>
-<body>
-
-    <section class="container">
-        <section class="section-left">
-            <div class="bg-img"></div>
-            <div class="imagem"></div>
-
-        </section>
-
-        <section class="section-right">
-            <div class="text-header">
-
-            <h1>LUCAS SESSI</h1>
-
-            <P>Protect your account in just a few minutes by reviewing your security settings and activity</P>
-        </div><!--text-header-->
-
-            <form  method="post">
-                <input type="text" class="formulario-input" name="nome" placeholder="Email" required />
-                <input type="password" class="formulario-input" name="senha" placeholder="password" required />
-
-                <br/> <br/>
-
-                <a href="#" class="rec-senha">Forgote Password?</a>
-
-
-                <div class="button-logar">
-                    <input type="submit" value="Get Started" name="acao" id="button-logar" />
-                </div>
-
-            </form>
-
-
-        </section>
-    </section>
-
-</body>
-</html>
